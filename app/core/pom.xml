@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>jasmine-runtime-core</artifactId>
-    <version>${jasmine.runtime.version</version>
+    <version>${jasmine.runtime.version}</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -24,7 +24,7 @@
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
-            <version>2.7.14</version>
+            <version>3.2.4</version>
         </dependency>
         <!-- 注册中心 zooKeeper -->
         <dependency>
@@ -36,7 +36,7 @@
                     <artifactId>slf4j-log4j12</artifactId>
                 </exclusion>
             </exclusions>
-            <version>2.7.14</version>
+            <version>3.2.4</version>
         </dependency>
         <dependency>
             <groupId>com.jasmine</groupId>

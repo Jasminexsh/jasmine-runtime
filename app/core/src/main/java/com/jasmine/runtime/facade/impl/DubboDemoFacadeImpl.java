@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
  * @author xieshanghan
  * @version DubboDemoFacadeImpl.java v 0.1, 2024/2/5 xieshanghan
  */
-@DubboService(interfaceClass = DubboDemoFacade.class)
+@DubboService
 public class DubboDemoFacadeImpl implements DubboDemoFacade {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DubboDemoFacadeImpl.class);

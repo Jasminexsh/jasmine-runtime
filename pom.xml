@@ -20,26 +20,95 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jasmine.runtime.version>1.0.0.20240205-SNAPSHOT</jasmine.runtime.version>
-        <springboot.version>2.7.14</springboot.version>
-        <dubbo.version>2.7.14</dubbo.version>
-        <zookeeper.version>3.6.3</zookeeper.version>
+        <springboot.version>2.7.5</springboot.version>
+        <dubbo.version>3.2.4</dubbo.version>
+        <zookeeper.version>3.6.4</zookeeper.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <!-- spring & springboot start -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-autoconfigure</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
+            <!-- spring & springboot end -->
+
+            <!-- jasmine-runtime submodule start -->
             <dependency>
                 <groupId>com.jasmine</groupId>
                 <artifactId>jasmine-runtime-util</artifactId>
                 <version>${jasmine.runtime.version}</version>
             </dependency>
-            <!-- slf4j start -->
+            <dependency>
+                <groupId>com.jasmine</groupId>
+                <artifactId>jasmine-runtime-core</artifactId>
+                <version>${jasmine.runtime.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jasmine</groupId>
+                <artifactId>jasmine-runtime-facade</artifactId>
+                <version>${jasmine.runtime.version}</version>
+            </dependency>
+            <!-- jasmine-runtime submodule end -->
+
             <!-- slf4j 日志门面 -->
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
                 <version>1.7.36</version>
             </dependency>
-            <!-- slf4j end -->
+
+            <!-- dubbo & zookeeper start -->
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-registry-zookeeper</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-dependencies-zookeeper</artifactId>
+                <type>pom</type>
+                <version>${dubbo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-dependencies-zookeeper-curator5</artifactId>
+                <type>pom</type>
+                <version>${dubbo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-zookeeper-curator5-spring-boot-starter</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>3.6.4</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.protobuf</groupId>
+                <artifactId>protobuf-java</artifactId>
+                <version>3.20.0</version>
+            </dependency>
+            <!-- dubbo & zookeeper end -->
 
             <!-- log4j2 start -->
             <dependency>
@@ -52,13 +121,13 @@
                 <artifactId>log4j-core</artifactId>
                 <version>2.20.0</version>
             </dependency>
-            <!-- slf4j 和 logfj2 桥接 -->
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-slf4j-impl</artifactId>
                 <version>2.20.0</version>
             </dependency>
             <!-- log4j2 end -->
+
             <!-- apache common lang -->
             <dependency>
                 <groupId>org.apache.commons</groupId>

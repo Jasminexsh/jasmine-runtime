@@ -19,6 +19,7 @@
     </properties>
 
     <dependencies>
+        <!-- spring boot starter -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -28,13 +29,16 @@
                     <artifactId>spring-boot-starter-logging</artifactId>
                 </exclusion>
             </exclusions>
-            <version>2.7.14</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+
         <!-- dubbo start -->
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
-            <version>2.7.14</version>
         </dependency>
         <!-- 注册中心 zooKeeper -->
         <dependency>
@@ -46,24 +50,45 @@
                     <artifactId>slf4j-log4j12</artifactId>
                 </exclusion>
             </exclusions>
-            <version>2.7.14</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-zookeeper-curator5-spring-boot-starter</artifactId>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.apache.dubbo</groupId>-->
+<!--            <artifactId>dubbo-dependencies-zookeeper</artifactId>-->
+<!--            <type>pom</type>-->
+<!--            <version>3.2.4</version>-->
+<!--        </dependency>-->
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-dependencies-zookeeper-curator5</artifactId>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
         </dependency>
         <!-- dubbo end -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.7.14</version>
-        </dependency>
 
         <dependency>
             <groupId>com.jasmine</groupId>
             <artifactId>jasmine-runtime-util</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.zookeeper</groupId>
-            <artifactId>zookeeper</artifactId>
-            <version>3.6.3</version> <!-- 使用你需要的版本号 -->
+            <groupId>com.jasmine</groupId>
+            <artifactId>jasmine-runtime-core</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.jasmine</groupId>
+            <artifactId>jasmine-runtime-facade</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

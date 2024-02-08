@@ -5,28 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a3bc4f-60da-4901-a37f-976e0a0f49d0" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bootstrap/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bootstrap/src/main/java/com/jasmine/runtime/JasmineRuntimeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bootstrap/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bootstrap/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/src/main/java/com/jasmine/runtime/facade/impl/DubboDemoFacadeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/facade/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/facade/src/main/java/com/jasmine/runtime/facade/DubboDemoFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/facade/src/main/java/com/jasmine/runtime/facade/model/DubboDemoQueryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/facade/src/main/java/com/jasmine/runtime/facade/model/DubboDemoQueryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/util/src/main/java/com/jasmine/runtime/util/IpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/util/src/main/java/com/jasmine/runtime/util/LoggerUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bootstrap/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/bootstrap/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bootstrap/src/main/java/com/jasmine/runtime/JasmineRuntimeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/bootstrap/src/main/java/com/jasmine/runtime/JasmineRuntimeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bootstrap/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/bootstrap/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bootstrap/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/src/main/java/com/jasmine/runtime/facade/impl/DubboDemoFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/src/main/java/com/jasmine/runtime/facade/impl/DubboDemoFacadeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +56,10 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Jasmine/IdeaProjects/jasmine",
+    "last_opened_file_path": "/Users/xieshanghan/idea_ce_projects/jasmine-runtime",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "Errors",
     "应用程序.JasmineRuntimeApplication.executor": "Debug"
   }
@@ -98,7 +87,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-8336523bb0d9-512f363d" />
       </set>
     </attachedChunks>
   </component>
@@ -127,8 +116,39 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/core/src/main/java/com/jasmine/runtime/facade/impl/DubboDemoFacadeImpl.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/core/src/main/java/com/jasmine/runtime/facade/impl/DubboDemoFacadeImpl.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/core/src/main/java/com/jasmine/runtime/facade/impl/DubboDemoFacadeImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/core/src/main/java/com/jasmine/runtime/facade/impl/DubboDemoFacadeImpl.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/core/src/main/java/com/jasmine/runtime/facade/impl/DubboDemoFacadeImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/jasmine_runtime$JasmineRuntimeApplication.ic" NAME="JasmineRuntimeApplication 覆盖结果" MODIFIED="1707143698459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/jasmine_runtime$JasmineRuntimeApplication.ic" NAME="JasmineRuntimeApplication 覆盖结果" MODIFIED="1707299946636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.jasmine.runtime.*</FILTER>
     </SUITE>
   </component>
